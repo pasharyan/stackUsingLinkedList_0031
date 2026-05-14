@@ -48,3 +48,12 @@ public:
         cout << "Popped value: " << top->data << endl;
         delete temp;
     }
+
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+        {
